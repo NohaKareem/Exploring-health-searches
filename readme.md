@@ -3,7 +3,6 @@
 
 ## Instructions
 - If running into seaborn errors, run `pip install seaborn` 
-
 ___
 ## Observations
 ___
