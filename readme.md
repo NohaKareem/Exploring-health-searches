@@ -25,10 +25,10 @@ ___
 
     - As seen in Fig. 1, much of the search topics across the years depicted here exhibit sharp density curves with relatively long tails, suggesting less anomalous data. 
 
-- **Fig. 2** depicts search data distributions' boxplots, categorized by search topic. Overall, the data showcases an overal trend in search increase for all topics in general. 
+- **Fig. 2** depicts search data distributions' boxplots, categorized by search topic. Overall, the data showcases an overall trend in search increase for all dataset search topics in general (as seen through the increasing interquartile ranges), even if experiencing slight dips in trends, as for instance with the 2010 diabetes searches, in comparison to both 2009 and 2008 ones, in **Fig. 2.9**.
     - There are some interesting data points, sich as in cancer search where in 2007, that is the only year in given data where there was a point that no cancer-related search was held (minimum of zero). That minimum of zero is a regular occurence however with cardiovascular search, from 2006 and onwards, and occurs in all other datasets at throughout all the years. 
-    - As earlier mentioned, there seems to be a staedy increase in search in all fields illustrated, given the overall increasing pattern (with some dips in some search topics) of each topic's interquartile range. 
-        - A noteworthy spike in search interest occured in 2011 in depression related searches~
+    - A noteworthy pivotal spike in search interest occured in 2011 in depression related searches (**Fig. 2.5**). This also coincides with a rather steady increase, with slight occasional dips, in diabetes searches  (**Fig. 2.9**), also upon the year 2011 (after 7 years of highly fluctuating interquartile ranges indicating a highly fluctuating search interest in the topic).
+        - This coincidental spike is marked by a positive correlation coefficient of 0.52, and thus a coefficient of determination of 0.2704, indicating that the data represents only around 27% of the sample in that year. This has been seen in the discussion above, given the selective spikes. The correlation holds a predictability strength of 52% (a bidirectional predictive increase in either variable upon the increase of the other), suggesting one worth further exploration. On that note, Fig. 5, discussed further below, explores both variables in another year, 2005, for another relatively strong positive correlation. 
 
 ### ~Fig. 3 diagrams
 In studying the correlation heatmaps in figure 3 (fig. 3.1 - 3.9), the following could be observed:
