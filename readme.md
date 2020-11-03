@@ -1,5 +1,5 @@
 # Exploring health searches
-- A Python pandas data exploration assignment for class 5007.
+- A Python pandas data exploration assignment for class 5007, using [kaggle data](https://www.kaggle.com/GoogleNewsLab/health-searches-us-county).
 
 ## Instructions
 - If running into seaborn errors, run `pip install seaborn` 
@@ -7,15 +7,23 @@ ___
 ## Observations
 ___
 ### Descsriptive Statistics
+
+- The dataset samples health related seasrches in 9 different topics/keywords, across 210 US metropolitan areas, across 14 years (producing 126 search-frequency columns, in addition to two geographical columns).
+
 - **Fig. 1** Offers a data distribution overview, that is more detailed in figures 1.1-1.9.
-    - Data distributions vary per search topic, as well as per year within a single search topic. 
+    - Data distributions vary per search topic, as well as per year within a single search topic. Below focuses exploration in the cardiovascular-related searches.
         - Exploring cardiovascular-related searches' descriptive statistics
             - The mean tends to be pretty close, throughout the years, to the median, suggesting a relatively normal distribution. This is illustrated by the histograms in fig. 1.2, where the central tendency metrics tend to cluster around the dataset's center, with some exceptions, such as in 2004 and 2005 where a more obvious skewing occurs towards the right. Such skewing is being mirrored in a more pronounced discrepancy between the mean and median. For instance, 2005 hosts a median of 15, and a mean of around 18.67 accounting to the right skewing given its sensitive, non resistant nature.
-            - Standard deviation had a spike in 2005 (at around 14.3), to around twice as much as that in 2004. It then wavers in the following years, at standard deviations 9 and higher. 
-            - Data distribution suggests the least searches were in the year 2004, suggesting that search interest in this area is increasing (as evident by the starting median, a resistant metric, of 6 in the year 2004, and the median of 34 in the year 2017)
-        - Stroke~
+            - Standard deviation had a spike in 2005 (at around 14.3), to around twice as much as that in 2004. It then wavers in the following years, at standard deviations 9 and higher. The spike suggests a higher variation between metropolitan areas where some would be searching more than others. Lower standard deviations would attribute to more relatable search frequencies across different regions, suggesting a topic of higher nation-wide interest.
+            - Data distribution suggests the least searches were in the year 2004, suggesting that search interest in this area is overall increasing (as evident by the starting median, a resistant metric, of 6 in the year 2004, and the median of 34 in the year 2017)
+            - Overall search density increase in the year 2017 compared to 2004 is further evident in **Fig. 2.2** depicting boxplots for cardiovascular-related searches in the years 2004-2017. The boxplots' interquartile ranges fluctuate, with occaisonal dips, as in the year 2008, and 2017 (compared to that in 2016, or 2015), but overall exhibits an increase from the starting search frequency seen in 2004. 
+                - Looking into the boxplots numerically, in the Cardiovascular search quartiles printed in succession to the boxplots in Fig. 2 plots, it could be seen clearly that the 75th percentile of cardiovascular searches started at a mere 9 searches in 2004, and increased to 41 in 2017 (with an all time high of 53 in 2015).
 
-    - ~Overall search topics across the years depicted here exhibit sharp density curves with relatively long tails, suggesting more reliable/less anomalous data
+        - Exploring some observations in stroke-related searches' descriptive statistics
+            - The histogras for stroke overall follow a relatively normal distribution, mostly packed around the central tendency, with some skewing towards both ends of graph, indicating that interest tends to spike in a number of cities. 
+            - In zooming in on the year 2013, it could be noted that there are two spikes in search interest, namely those around 60 searches, as well as somewhere between 60-80 searches. On filtering the data to those having 60 searches, it could be seen, as evident by the data's shape property, that 12 areas have exhibited such search spike (displayed in table 1.3.1).   
+
+    - As seen in Fig. 1, much of the search topics across the years depicted here exhibit sharp density curves with relatively long tails, suggesting less anomalous data. 
 
 - **Fig. 2** depicts search data distributions' boxplots, categorized by search topic. Overall, the data showcases an overal trend in search increase for all topics in general. 
     - There are some interesting data points, sich as in cancer search where in 2007, that is the only year in given data where there was a point that no cancer-related search was held (minimum of zero). That minimum of zero is a regular occurence however with cardiovascular search, from 2006 and onwards, and occurs in all other datasets at throughout all the years. 
