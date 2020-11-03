@@ -30,12 +30,14 @@ In studying the correlation heatmaps in figure 3 (fig. 3.1 - 3.9), the following
 ### Fig. 4 & 5 diagrams
 Given the size of the dataset (127 rows and cols in correlation matrix), the data has been broken down for ~exploration by year.
 - The highest intra-year correlation is that found in year 2005, **Fig.4.2**, between depression and diabetes searches. 
-- Zooming in on the scatter plot for the year 2005, in **Fig. 5**, a strong **positive correlation** can be seen, where an increase in depression searches in 2005 are strongly correlated with an increase in searches in diabetes in the same year. 
+- Zooming in on the scatter plot for the year 2005, in **Fig. 5**, a strong **positive correlation** can be seen, where an increase in depression searches in 2005 is strongly correlated with an increase in searches in diabetes in the same year. 
     - There's a heavy clustering towards the lower left quadrant of the scatterplot, where data distribution is most dense, offering a higher confidence in each variable's predictability of the other.
+    - The distribution could fits to a linear model fairly well with few anomaly points (such as 100,100 or 0,0 at both variables)
     - The 2005 searches exhibit some anomalies, most noteworthy being that at 100 depression sarches, for which the frequency is mirrored in diabetes searches.
-    - The data's density, as well as closely packed clustered nature, suggests that there is a relationship worth exploring between depression and diabetes, or at least a suggested relationship in the media in the year 2005, given how the correlation tapered since. The lower left cluster suggests that the searches were not too dense throughout the year, but when they were present, it was highly predictable that one would occur, given the other.  
+    - The data's density, as well as closely packed clustered nature, suggests that there is a relationship worth exploring between depression and diabetes, or perhaps a response to a trend, such as a suggested relationship metnioned in the media, in the year 2005, given how the correlation tapered since. The lower left cluster suggests that the searches were not too dense throughout the year, but when they were present, it was highly predictable that one would occur, given the other, a 76% likelihood that is (correlation coefficient, r, of 0.76).
+    - Given the correlation coefficient (r) value of 0.76, the coefficient of determination (r squared) is 0.5776. That is, the correlation accounts for around 57.8% of the data sampled (in searches in question, in 2005). This covers a little over half the data population, suggesting a good enough, albeit not too highly accurate, of a predictive model.  
       
-### FIg. 6 diagrams 
+### Fig. 6 diagrams 
 The lowest correlation observed was that between cardiovascular and vaccine searches in the year 2017. **Fig. 6.1** plots the correlation scatter plot matrix for the year 2017.   
     - In plotting the cardiovascular and vaccine searches' corerlation in 2017, in **Fig. 6.2**, a flat trend line emerges, affirming a strong **lack of predictability** of either variable to the other. 
     - The scatter plot's density accumulates towards the right half of the graph, around the lower/middle vertical axis (of cardiovascular searches in the year), showcasing more ~vaccine searches than cardiovascular ones in that year. 
