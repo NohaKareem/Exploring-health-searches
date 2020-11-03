@@ -9,9 +9,8 @@ ___
 ### Descsriptive Statistics
 - **Fig. 1** Offers a data distribution overview, that is more detailed in figures 1.1-1.9.
     - Data distributions vary per search topic, as well as per year within a single search topic. 
-        - Cancer standard deviations fluctuate between 6 and 7 
-        - Cardiovascular 
-            - The mean tends to be pretty close, throughout the years, to the median, suggesting a ~relatively normal distribution
+        - Exploring cardiovascular-related searches' descriptive statistics
+            - The mean tends to be pretty close, throughout the years, to the median, suggesting a relatively normal distribution. This is illustrated by the histograms in fig. 1.2, where the central tendency metrics tend to cluster around the dataset's center, with some exceptions, such as in 2004 and 2005 where a more obvious skewing occurs towards the right. Such skewing is being mirrored in a more pronounced discrepancy between the mean and median. For instance, 2005 hosts a median of 15, and a mean of around 18.67 accounting to the right skewing given its sensitive, non resistant nature.
             - Standard deviation had a spike in 2005 (at around 14.3), to around twice as much as that in 2004. It then wavers in the following years, at standard deviations 9 and higher. 
             - Data distribution suggests the least searches were in the year 2004, suggesting that search interest in this area is increasing (as evident by the starting median, a resistant metric, of 6 in the year 2004, and the median of 34 in the year 2017)
         - Stroke~
