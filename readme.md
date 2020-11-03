@@ -3,6 +3,9 @@
 
 ## Instructions
 - If running into seaborn errors, run `pip install seaborn` 
+
+## Helpful refs
+- [Generating heatmaps](https://stackoverflow.com/questions/39409866/correlation-heatmap)
 ___
 ## Observations
 ___
